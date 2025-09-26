@@ -14,6 +14,9 @@ def say_hello():
 	return '<p>Hello, World,I am a Flask app!</p> <a href="/about">ABOUT PAGE</a>'
 @app.route('/about')
 def about():
-	return '<p>Hello about</p>'
+	return '<p>Hello about</p><a href="https://flask.palletsprojects.com/en/stable/>Flask</a><a href="https://www.python.org/">Python</a>'
+	@app.route('/contact')
+def contact():
+	return "Contact me at: C20366171@mytudublin.ie"
 zz
 flask --app hello run --host=0.0.0.0
