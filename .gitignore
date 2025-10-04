@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+venv/
+env/
+.DS_Store
+.vagrant/
+*.pem
+*.key
+id_rsa
+id_ed25519
