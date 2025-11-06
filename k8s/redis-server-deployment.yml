@@ -15,3 +15,4 @@ spec:
         - name: redis-container
           image: redis:latest
 
+#this was the lab version which was instructed ,had to make another one which is the yml 
